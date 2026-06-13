@@ -1,12 +1,13 @@
+
 def main():
-    answer = input("What is the Answer to the Great Question of Life, the Universe, and Everything? ")
+    ans = input("What is the answer to the Ultimate Question of Life, The Universe, and Everything? ")
+    deepThoughts(ans)
 
-    answer = answer.strip().lower()    
+def deepThoughts(input):
+ input = input.lower().strip()
+ if input == "42" or input == "forty-two" or input == "forty two":
+  print("Yes!")
+ else:
+  print("No!")
 
-    if answer == "42" or "forty-two" or "forty two":
-        print("YES")
-    else:
-        print("NO")
-
-
-main()              
+main()
