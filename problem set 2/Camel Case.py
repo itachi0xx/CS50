@@ -6,22 +6,7 @@ if name.islower():
     print(name)
     exit()
 
-res = ""
 
-for i, letter in enumerate(name):
-    if name[i].isupper():
-        if name[i] == 0:
-           res += name[i].lower()
-        else:
-            res += name[i].lower() + "_"
-    else:
-        res += letter
-
-print(res)
-
-
-
-"""
 # convert the string into a dictionary
 dic = {}
 for index in range(len(name)):
@@ -45,4 +30,3 @@ snake  = "".join(dic.values())
 
 print(snake)
 
-"""
