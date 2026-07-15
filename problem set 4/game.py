@@ -12,12 +12,13 @@ def main():
             pass
 
     number = random.randint(1, level)
+    # for testing you code:
+    print(number)
 
     while True:
 
         try:
             guess = int(input("Guess: "))
-            print(number)
 
             if guess <= 0:
                 continue
